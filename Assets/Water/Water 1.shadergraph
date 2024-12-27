@@ -5633,7 +5633,7 @@
     "m_ObjectId": "9dbbdde9ca7a4679838313e6499bf025",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -2030.000244140625,
+        "x": -2030.0001220703125,
         "y": -919.0001220703125
     }
 }
@@ -5713,8 +5713,8 @@
     "m_ObjectId": "a0693b7b06124dfbbdcaaf5a3d112914",
     "m_Title": "Water Depth Coloring",
     "m_Position": {
-        "x": -1794.000244140625,
-        "y": 149.99993896484376
+        "x": -1794.0001220703125,
+        "y": 150.0
     }
 }
 
@@ -6037,7 +6037,7 @@
     "isMainTexture": false,
     "useTilingAndOffset": false,
     "m_Modifiable": true,
-    "m_DefaultType": 0
+    "m_DefaultType": 3
 }
 
 {
@@ -6316,7 +6316,7 @@
     "m_ObjectId": "b1eb1b5b12a242c3b607954a921f74c2",
     "m_Title": "Foam",
     "m_Position": {
-        "x": -1789.000244140625,
+        "x": -1789.0001220703125,
         "y": 772.0001220703125
     }
 }

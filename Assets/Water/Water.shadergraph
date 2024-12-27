@@ -2107,8 +2107,8 @@
     "m_ObjectId": "6d62c3fcf3694ca49c6f05ac9f17c78c",
     "m_Title": "Water Refraction",
     "m_Position": {
-        "x": -2059.000244140625,
-        "y": -812.0001220703125
+        "x": -2059.0,
+        "y": -812.0
     }
 }
 
@@ -3046,8 +3046,8 @@
     "m_ObjectId": "a0693b7b06124dfbbdcaaf5a3d112914",
     "m_Title": "Water Depth Coloring",
     "m_Position": {
-        "x": -928.0000610351563,
-        "y": 83.99996948242188
+        "x": -928.0,
+        "y": 84.0
     }
 }
 
