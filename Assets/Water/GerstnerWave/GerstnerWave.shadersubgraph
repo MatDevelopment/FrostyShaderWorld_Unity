@@ -64,9 +64,6 @@
             "m_Id": "5b6b940700704089a59182e53363933a"
         },
         {
-            "m_Id": "35ed5288a7f34abea294833bd7e31e4d"
-        },
-        {
             "m_Id": "8e5fca1dbf5c4404990f724e18444bb7"
         },
         {
@@ -171,7 +168,11 @@
             "m_Id": "521e406dd814477995688d7158d02084"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "d71abaca23d54a22b6034cce6c4784d7"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -311,20 +312,6 @@
                     "m_Id": "07fa31dbb5b349e3a27db52f1756fb71"
                 },
                 "m_SlotId": -1127403946
-            }
-        },
-        {
-            "m_OutputSlot": {
-                "m_Node": {
-                    "m_Id": "35ed5288a7f34abea294833bd7e31e4d"
-                },
-                "m_SlotId": 0
-            },
-            "m_InputSlot": {
-                "m_Node": {
-                    "m_Id": "2ab9278c5519472d8a4c1094037ccaab"
-                },
-                "m_SlotId": 0
             }
         },
         {
@@ -549,6 +536,20 @@
                     "m_Id": "97be6f029da24502bc5d2caeea5b126b"
                 },
                 "m_SlotId": 1
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "8e5fca1dbf5c4404990f724e18444bb7"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "2ab9278c5519472d8a4c1094037ccaab"
+                },
+                "m_SlotId": 0
             }
         },
         {
@@ -1817,42 +1818,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
-    "m_ObjectId": "35ed5288a7f34abea294833bd7e31e4d",
-    "m_Group": {
-        "m_Id": "46ef0b9e39964a8094fc585087fd1303"
-    },
-    "m_Name": "Property",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": -352.0,
-            "y": -268.0,
-            "width": 124.0,
-            "height": 34.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "45015365177541338bd07785bf7d4f07"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_DismissedVersion": 0,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_Property": {
-        "m_Id": "2ef25b7a05c246478e9ea01a42dadcbc"
-    }
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DivideNode",
     "m_ObjectId": "380d5918dc6d4fd692149bc3460d95d1",
     "m_Group": {
@@ -2199,29 +2164,6 @@
 
 {
     "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
-    "m_ObjectId": "45015365177541338bd07785bf7d4f07",
-    "m_Id": 0,
-    "m_DisplayName": "Direction",
-    "m_SlotType": 1,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "Out",
-    "m_StageCapability": 3,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "4540043ffcb9468e9ffdca1eb10b6baf",
     "m_Id": -1127403946,
@@ -2241,7 +2183,7 @@
     "m_ObjectId": "46ef0b9e39964a8094fc585087fd1303",
     "m_Title": "X Calculation",
     "m_Position": {
-        "x": -378.00006103515627,
+        "x": -377.9999694824219,
         "y": -472.0
     }
 }
@@ -2252,8 +2194,8 @@
     "m_ObjectId": "4929b2568e1649e9a68ff84252e7cb8d",
     "m_Title": "Y Calculation",
     "m_Position": {
-        "x": -383.0000305175781,
-        "y": 223.99986267089845
+        "x": -383.0,
+        "y": 224.0
     }
 }
 
@@ -2480,8 +2422,8 @@
     "m_ObjectId": "521e406dd814477995688d7158d02084",
     "m_Title": "Z Calculation",
     "m_Position": {
-        "x": -384.0000305175781,
-        "y": 619.999755859375
+        "x": -383.99993896484377,
+        "y": 620.0001220703125
     }
 }
 
@@ -4662,6 +4604,26 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "d71abaca23d54a22b6034cce6c4784d7",
+    "m_Title": "Gerstner Waves",
+    "m_Content": "Is a mathmatical formula describing the movement of water. It is periodic and is commonly used as it creates a more realistic looking water surface compared to sine waves or other similar simple waves.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -687.8030395507813,
+        "y": -398.341552734375,
+        "width": 200.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
     }
 }
 

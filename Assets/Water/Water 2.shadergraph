@@ -277,6 +277,12 @@
         },
         {
             "m_Id": "9dbbdde9ca7a4679838313e6499bf025"
+        },
+        {
+            "m_Id": "75b3a73ea1214d42953ab9baaaf84e18"
+        },
+        {
+            "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
         }
     ],
     "m_StickyNoteDatas": [
@@ -285,6 +291,18 @@
         },
         {
             "m_Id": "9d4958787c8f4e3f803acf9f91e376a7"
+        },
+        {
+            "m_Id": "125af2f24be94bc38bef8d5981490743"
+        },
+        {
+            "m_Id": "a8d43d5d1991493c9eb9eab273db8028"
+        },
+        {
+            "m_Id": "7df543fa9e1945a192b8c10e6b98def1"
+        },
+        {
+            "m_Id": "e4e57394f86a4abba035ff46fc010aec"
         }
     ],
     "m_Edges": [
@@ -1291,7 +1309,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "01a474f2c7e547cb9ec16b20c480dfef",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -1376,7 +1394,7 @@
     "m_Type": "UnityEditor.ShaderGraph.MultiplyNode",
     "m_ObjectId": "04560e6fb46846d6b9c343524e403f19",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Multiply",
     "m_DrawState": {
@@ -1519,7 +1537,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "09bd3002e36149149b37e187f7783e12",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -1611,6 +1629,26 @@
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "125af2f24be94bc38bef8d5981490743",
+    "m_Title": "Normals",
+    "m_Content": "To give the water surface texture and a normal is applied with a certain strength and scaling.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1053.0,
+        "y": 520.0,
+        "width": 161.0,
+        "height": 110.0
+    },
+    "m_Group": {
+        "m_Id": "75b3a73ea1214d42953ab9baaaf84e18"
     }
 }
 
@@ -1894,7 +1932,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
     "m_ObjectId": "1ee68fddb7d04fd9b7b216469a1ae827",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "GerstnerWave",
     "m_DrawState": {
@@ -2475,7 +2513,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TransformNode",
     "m_ObjectId": "36d5b3b96aa54362ba35eec26081d357",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Transform",
     "m_DrawState": {
@@ -2744,7 +2782,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "3d09bb034ec04473b408a1132db3efe3",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Position",
     "m_DrawState": {
@@ -3762,7 +3800,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "683d4f2d97b3473782825f68d9fa6b2a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -3944,7 +3982,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TimeNode",
     "m_ObjectId": "6cb46fc2fd1d4163b87574aaa1235f8a",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Time",
     "m_DrawState": {
@@ -4315,6 +4353,17 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "75b3a73ea1214d42953ab9baaaf84e18",
+    "m_Title": "Normals",
+    "m_Position": {
+        "x": -1083.0,
+        "y": 150.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "76c68f2d8ebc4d679b8048860e674911",
     "m_Title": "Depth Coloring",
@@ -4486,7 +4535,7 @@
     "m_Type": "UnityEditor.ShaderGraph.SaturateNode",
     "m_ObjectId": "7d22f083ff804da89c9b9700e2d27145",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "75b3a73ea1214d42953ab9baaaf84e18"
     },
     "m_Name": "Saturate",
     "m_DrawState": {
@@ -4530,6 +4579,26 @@
     "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_BareResource": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "7df543fa9e1945a192b8c10e6b98def1",
+    "m_Title": "Normal Refraction",
+    "m_Content": "This part implements refraction under the water surface by blending two inversely rotating normal maps to simulate the effect light has on the water.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -792.0,
+        "y": -755.0,
+        "width": 199.9998779296875,
+        "height": 159.99993896484376
+    },
+    "m_Group": {
+        "m_Id": "9dbbdde9ca7a4679838313e6499bf025"
+    }
 }
 
 {
@@ -4739,7 +4808,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PositionNode",
     "m_ObjectId": "857c1c2f1d7d4ef38288875ba7684958",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Position",
     "m_DrawState": {
@@ -4999,6 +5068,17 @@
     "m_RangeValues": {
         "x": 0.0,
         "y": 1.0
+    }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.GroupData",
+    "m_ObjectId": "8f00c39730a54e13ba876b3660bbf3ee",
+    "m_Title": "Wave Generation",
+    "m_Position": {
+        "x": -1937.9998779296875,
+        "y": -1994.999755859375
     }
 }
 
@@ -5421,7 +5501,7 @@
     "m_Title": "Refraction",
     "m_Position": {
         "x": -2029.9998779296875,
-        "y": -918.9998779296875
+        "y": -919.0
     }
 }
 
@@ -5516,7 +5596,7 @@
     "m_Title": "Water Depth Coloring",
     "m_Position": {
         "x": -1793.9998779296875,
-        "y": 149.99996948242188
+        "y": 150.0
     }
 }
 
@@ -5691,6 +5771,26 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "a8d43d5d1991493c9eb9eab273db8028",
+    "m_Title": "Combining Outputs",
+    "m_Content": "Using lerp, the results of the refraction, foam and depth coloring is applied to include all the aspects at the same time.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 333.0,
+        "y": 404.0,
+        "width": 215.0,
+        "height": 160.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
     "m_ObjectId": "a8fb99249645447f86cb64a05ac5ab1f",
@@ -5723,7 +5823,7 @@
     "m_Type": "UnityEditor.ShaderGraph.NormalStrengthNode",
     "m_ObjectId": "aa91cdc4878c44df91716270cc32f245",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "75b3a73ea1214d42953ab9baaaf84e18"
     },
     "m_Name": "Normal Strength",
     "m_DrawState": {
@@ -6091,7 +6191,7 @@
     "m_Title": "Foam",
     "m_Position": {
         "x": -1788.9998779296875,
-        "y": 771.9999389648438
+        "y": 772.0
     }
 }
 
@@ -6124,7 +6224,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "b3b8049ef3c74a0cb4f91491f2f2c61f",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -6432,7 +6532,7 @@
     "m_Type": "UnityEditor.ShaderGraph.TransformNode",
     "m_ObjectId": "c20cecbd55c74471b6cc12e8a2aff751",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Transform",
     "m_DrawState": {
@@ -6778,7 +6878,7 @@
     "m_Type": "UnityEditor.ShaderGraph.LerpNode",
     "m_ObjectId": "cab23d73cb024c1ba9ab4010dc1c7ce4",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "75b3a73ea1214d42953ab9baaaf84e18"
     },
     "m_Name": "Lerp",
     "m_DrawState": {
@@ -7050,7 +7150,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "d9aa526f76ea4efa93a028c6ca2a5a78",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "75b3a73ea1214d42953ab9baaaf84e18"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -7086,7 +7186,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "db54a09e60694e90a0c291c0baaefdd9",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Property",
     "m_DrawState": {
@@ -7288,6 +7388,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "e4e57394f86a4abba035ff46fc010aec",
+    "m_Title": "Gerstner Waves",
+    "m_Content": "Based on the implementation of the gerstner wave formula in the subgraph \"GerstnerWave\" the waters vertices are displaced based on its position in the world.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -948.0,
+        "y": -1868.0,
+        "width": 200.0,
+        "height": 167.0
+    },
+    "m_Group": {
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "e5af230efb6e4dc99785940b400e2eb6",
     "m_Id": 0,
@@ -7444,7 +7564,7 @@
     "m_Type": "UnityEditor.ShaderGraph.AddNode",
     "m_ObjectId": "e9a732711e164ed299e2a2303019e473",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Add",
     "m_DrawState": {
@@ -7778,7 +7898,7 @@
     "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
     "m_ObjectId": "f94c389437f34748b1007083bef156ec",
     "m_Group": {
-        "m_Id": ""
+        "m_Id": "8f00c39730a54e13ba876b3660bbf3ee"
     },
     "m_Name": "Property",
     "m_DrawState": {
