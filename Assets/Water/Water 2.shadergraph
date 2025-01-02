@@ -3950,8 +3950,8 @@
     "m_ObjectId": "275481f8fdad4d7284f3379c6e2afe0f",
     "m_Title": "Wave Vertex Normals",
     "m_Position": {
-        "x": -2002.9998779296875,
-        "y": -2977.999755859375
+        "x": -2003.0,
+        "y": -2978.0
     }
 }
 
@@ -7683,7 +7683,7 @@
     "m_Title": "Normals",
     "m_Position": {
         "x": -1083.0,
-        "y": 149.999755859375
+        "y": 150.0
     }
 }
 
@@ -8917,8 +8917,8 @@
     "m_ObjectId": "8f00c39730a54e13ba876b3660bbf3ee",
     "m_Title": "Wave Generation",
     "m_Position": {
-        "x": -1824.0001220703125,
-        "y": -3994.000244140625
+        "x": -1824.0,
+        "y": -3994.0
     }
 }
 
@@ -9424,7 +9424,7 @@
     "m_ObjectId": "9dbbdde9ca7a4679838313e6499bf025",
     "m_Title": "Refraction",
     "m_Position": {
-        "x": -2029.9998779296875,
+        "x": -2030.0,
         "y": -919.0
     }
 }
@@ -9605,8 +9605,8 @@
     "m_ObjectId": "a0693b7b06124dfbbdcaaf5a3d112914",
     "m_Title": "Water Depth Coloring",
     "m_Position": {
-        "x": -1793.9998779296875,
-        "y": 149.999755859375
+        "x": -1794.0,
+        "y": 150.0
     }
 }
 

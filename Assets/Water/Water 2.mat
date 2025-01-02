@@ -140,17 +140,17 @@ Material:
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _Surface: 0
-    - _TimeScale: 0.5
+    - _TimeScale: 3.82
     - _WaterDepth: 10
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _DeepWater: {r: 0.2627451, g: 0.40784314, b: 0.8867924, a: 0.5019608}
+    - _DeepWater: {r: 0.12148452, g: 0.18541816, b: 0.3962264, a: 0.5019608}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _ShallowWater: {r: 0.22745094, g: 0.76862746, b: 0.8962264, a: 0.24705882}
+    - _ShallowWater: {r: 0.5421413, g: 0.8126675, b: 0.8773585, a: 0.24705882}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TimeScales: {r: 0.5, g: 0.3, b: 0.7, a: 0.4}
     - _WaveDirection: {r: 0.1, g: 0, b: 0.07, a: 0}
