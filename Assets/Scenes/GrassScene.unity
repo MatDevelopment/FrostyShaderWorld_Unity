@@ -608,6 +608,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grassPrefab: {fileID: 2745349197731302489, guid: 42f6fd2a6649b1346a4913f4b009cf7a, type: 3}
+  interactableObject: {fileID: 1127614683}
+  material: {fileID: 2100000, guid: ba18b1154cf80b5448fc067008fc6c45, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
