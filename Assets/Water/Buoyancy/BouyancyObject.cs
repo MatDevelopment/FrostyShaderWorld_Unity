@@ -27,20 +27,9 @@ public class BouyancyObject : MonoBehaviour
     {
         float difference = transform.position.y - waterHeight;
 
-        if (difference < 0 )
+        if (difference < 0 && isUnderwater)
         {
             rb.AddForceAtPosition(Vector3.up * floatingPower * Mathf.Abs(difference), transform.position, ForceMode.Force);
-
-            if (!isUnderwater)
-            {
-                isUnderwater = true;
-                SwitchStates(true);
-            }
-        }
-        else if (isUnderwater)
-        {
-            isUnderwater = false;
-            SwitchStates(false);
         }
     }
 
@@ -56,5 +45,19 @@ public class BouyancyObject : MonoBehaviour
             rb.linearDamping = airDrag;
             rb.angularDamping = airAngularDrag;
         }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Debug.Log("A collider has entered the Water trigger");
+        isUnderwater = true;
+        SwitchStates(true);
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        // Debug.Log("A collider has exited the Water trigger");
+        isUnderwater = false;
+        SwitchStates(false);
     }
 }
