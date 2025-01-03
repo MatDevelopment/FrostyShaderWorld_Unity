@@ -7366,6 +7366,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3265848740599944931, guid: 42f6fd2a6649b1346a4913f4b009cf7a, type: 3}
   m_PrefabInstance: {fileID: 86755421}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &86916136 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6895190652494665853, guid: cacafbf5f4b7781458cdc14f854a9910, type: 3}
+  m_PrefabInstance: {fileID: 1026590078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &89251656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39379,7 +39384,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
+  - {fileID: 2100000, guid: f131c356a357b9d4ab96dce1746f150c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39515,7 +39520,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 7
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -39686,7 +39691,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.2
+      scalar: 0.1
       minScalar: 0.05
       maxCurve:
         serializedVersion: 2
@@ -40003,7 +40008,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     gravitySource: 0
-    maxNumParticles: 1000
+    maxNumParticles: 2000
     customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
@@ -40269,7 +40274,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 200
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -42796,7 +42801,7 @@ ParticleSystem:
     range: {x: 0, y: 1}
     separateAxes: 0
   RotationBySpeedModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -43035,11 +43040,16 @@ ParticleSystem:
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
-    m_Planes: []
+    m_Planes:
+    - {fileID: 565172349}
+    - {fileID: 752356081}
+    - {fileID: 1711061173}
+    - {fileID: 27063265}
+    - {fileID: 86916136}
     m_Dampen:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -43092,7 +43102,7 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0
       minScalar: 1
       maxCurve:
         serializedVersion: 2
