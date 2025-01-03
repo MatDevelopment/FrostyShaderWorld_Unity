@@ -14,7 +14,7 @@ public class GrassPlanting : MonoBehaviour
         {
             for (int x = -grassSize; x<= grassSize; x++)
             {
-            Vector3 posistion = new Vector3(x/4.0f + Random.Range(-0.30f,0.30f), 0, z/4.0f + Random.Range(-0.30f,0.30f));
+            Vector3 posistion = new Vector3(x/8.0f + Random.Range(-0.30f,0.30f), 0, z/8.0f + Random.Range(-0.30f,0.30f));
             GameObject grass = Instantiate(grassPrefab, posistion, Quaternion.identity);
             grass.transform.localScale = new Vector3(1, Random.Range(0.85f, 1.15f), 1);           
             }
