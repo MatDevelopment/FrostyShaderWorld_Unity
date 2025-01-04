@@ -136,7 +136,7 @@ Material:
     - _RedChangeSpeed: 0.004
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
-    - _SnowAmount: 0.19477805
+    - _SnowAmount: 0.9138371
     - _Snow_Blend_Distance: 0.05
     - _Snow_Color_Noise_Size: 250
     - _Snow_Color_Noise_Strength: 0.247
