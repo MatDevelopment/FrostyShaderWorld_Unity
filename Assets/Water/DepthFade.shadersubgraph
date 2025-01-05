@@ -572,7 +572,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "74925b73f09340169047b92a4301aff9",
     "m_Title": "Depth Fade",
-    "m_Content": "The depth fade subgraph lerps between two colors based on the distance from the camera. This is done to simulate how deeper parts of the water is darker while more shallow parts are lighter.",
+    "m_Content": "The depth fade subgraph outputs a value for how deep a part of the water is from 0-1. This is used to simulate how deeper parts of the water is darker while more shallow parts are lighter and as logic to decide where to create foam.",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
