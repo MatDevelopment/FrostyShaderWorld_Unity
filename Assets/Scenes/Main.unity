@@ -22344,7 +22344,7 @@ GameObject:
   - component: {fileID: 531919154}
   - component: {fileID: 531919153}
   - component: {fileID: 531919152}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27229,7 +27229,7 @@ GameObject:
   - component: {fileID: 743160130}
   - component: {fileID: 743160129}
   - component: {fileID: 743160128}
-  m_Layer: 1
+  m_Layer: 0
   m_Name: Clouds (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75975,6 +75975,10 @@ PrefabInstance:
     - target: {fileID: 2700874171910072509, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 6738909557208502655, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
